@@ -4,6 +4,8 @@
     - role: ubuntu
       tags: linux
 
+    - role: winrm
+
 - hosts: windows
   roles:
     - role: chocolatey
