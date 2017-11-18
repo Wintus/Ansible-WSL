@@ -1,1 +1,5 @@
 ---
+- hosts: ubuntu
+  roles:
+    - ubuntu
+  tags: linux
