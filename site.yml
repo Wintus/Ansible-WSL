@@ -3,3 +3,8 @@
   roles:
     - ubuntu
   tags: linux
+
+- hosts: windows
+  roles:
+    - chocolatey
+  tags: win

@@ -1,0 +1,13 @@
+- name: install chocolatey by chocolatey.
+  win_chocolatey:
+    name: "{{ item.name }}"
+    state: "{{ item.state | default('latest') }}"
+  with_items:
+    - name: chocolatey
+    - name: chocolateygui
+
+- name: install softwares by chocolatey.
+  win_chocolatey:
+    name: "{{ item.name }}"
+    state: "{{ item.state | default('latest') }}"
+  with_items: "{{ packages }}"

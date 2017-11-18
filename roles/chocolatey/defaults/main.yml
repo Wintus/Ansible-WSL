@@ -1,0 +1,62 @@
+packages:
+  # Utils
+  - name: autohotkey
+  - name: ditto
+  - name: linkshellextension
+  - name: 7zip.install
+  - name: googledrive
+  - name: dropbox
+  - name: git
+  - name: SourceTree
+  - name: curl
+  - name: ccleaner
+  - name: processhacker
+
+  # shell
+  - name: conemu
+  - name: cmder
+  #- name: cygwin
+
+  - name: firefox
+  - name: googlechrome
+
+  # Media
+  - name: vlc
+  - name: foobar2000
+  - name: audacity
+  - name: audacity-lame
+  - name: lame
+  - name: mp3tag
+  - name: kindle
+  # - name: adobereader
+  # - name: steam
+  - name: slack
+
+  - name: qbittorrent
+
+  # emacs
+  - name: emacs
+  - name: vcxsrv
+
+  # editors
+  - name: sublimetext3
+  # - name: sublimetext3.packagecontrol
+  - name: sublimetext3.powershellalias
+
+  - name: boostnote
+
+  # Programming
+  - name: visualstudiocode
+  #- name: vcbuildtools
+  - name: jdk8
+  - name: ruby
+  - name: anaconda3 # python
+  - name: jetbrainstoolbox
+  - name: terraform
+  - name: awscli
+  - name: vagrant
+  - name: winmerge
+  # - name: docker
+  - name: docker-for-windows
+  - name: haskell-stack
+  - name: idris
