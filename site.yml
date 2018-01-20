@@ -1,10 +1,10 @@
 ---
 - hosts: ubuntu
   roles:
-    - ubuntu
-  tags: linux
+    - role: ubuntu
+      tags: linux
 
 - hosts: windows
   roles:
-    - chocolatey
-  tags: win
+    - role: chocolatey
+      tags: system
