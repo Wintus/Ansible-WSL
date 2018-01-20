@@ -3,7 +3,9 @@
 ### Ansible template
 *.retry
 
-
+## secrets
+/group_vars/ubuntu.yml
+/group_vars/windows.yml
 
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
