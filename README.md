@@ -1,2 +1,2 @@
 # Ansible-WSL
-Provisioning WSL by Ansible
+Provisioning your Windows by Ansible from WSL
