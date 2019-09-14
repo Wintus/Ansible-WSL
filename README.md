@@ -28,7 +28,9 @@ For details, see the guide:
 
 ### Samples
 
-Windows
+Windows group
+
+`host_vars/win.yml`
 
 ```yaml
 ansible_host: localhost
@@ -41,7 +43,9 @@ ansible_user:
 ansible_password:
 ```
 
-WSL (Ubuntu)
+WSL group
+
+`host_vars/ubuntu.yml`
 
 ```yaml
 ansible_host: localhost
