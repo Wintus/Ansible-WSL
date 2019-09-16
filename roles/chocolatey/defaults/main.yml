@@ -43,6 +43,8 @@ chocolaty_packages:
   - name: openjdk
   - name: openjdk11
   - name: ruby
+  - name: python
+  - name: lein
   - name: jetbrainstoolbox
   - name: terraform
   - name: awscli
