@@ -1,0 +1,5 @@
+- name: install WinRM packages
+  pip:
+    name: pywinrm==0.3.0
+    state: present
+  changed_when: no # https://github.com/ansible/ansible/issues/48921
