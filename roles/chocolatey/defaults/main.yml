@@ -25,8 +25,8 @@ chocolaty_packages:
   - name: lame
   - name: mp3tag
   - name: kindle
-  # - name: adobereader
-  # - name: steam
+#  - name: adobereader
+  - name: steam
   - name: slack
 
   - name: qbittorrent
@@ -37,6 +37,7 @@ chocolaty_packages:
 
   # editors
   - name: visualstudiocode
+  - name: firacode-ttf
 
   # Programming
   - name: jdk8
@@ -45,10 +46,14 @@ chocolaty_packages:
   - name: ruby
   - name: python
   - name: lein
+  - name: elixir
+  - name: julia
+  - name: haskell-stack
+  - name: idris
+
+  # dev
   - name: jetbrainstoolbox
   - name: terraform
   - name: awscli
   - name: vagrant
   - name: docker-for-windows
-  - name: haskell-stack
-  - name: idris
