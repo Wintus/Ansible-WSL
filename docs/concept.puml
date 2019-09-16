@@ -1,0 +1,12 @@
+@startuml concept
+
+node Windows {
+  node WSL {
+    [Ansible]
+  }
+}
+
+Windows -r- WinRM
+[Ansible] .l.> WinRM : provision
+
+@enduml
