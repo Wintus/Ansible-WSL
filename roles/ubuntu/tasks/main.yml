@@ -1,5 +1,4 @@
 - name: install WinRM packages
-  become: yes
   pip:
     name: "{{ item.name }}"
     state: "{{ item.state | default('latest') }}"
