@@ -1,16 +1,7 @@
-- name: install packages
+- name: install WinRM packages
   become: yes
-  apt:
+  pip:
     name: "{{ item.name }}"
     state: "{{ item.state | default('latest') }}"
   with_items:
-    - name: software-properties-common
-    - name: curl
-    - name: git
-    - name: tig
-    - name: fish
-    - name: tree
-    - name: emacs
-    - name: vim-gnome
-    - name: ansible
-    - name: python-apt
+    - name: pywinrm
