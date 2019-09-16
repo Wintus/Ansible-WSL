@@ -8,4 +8,4 @@
 - name: install softwares in the package list.
   import_tasks: chocolaty.yml
   vars:
-    packages: "{{ packages }}"
+    packages: "{{ chocolaty_packages }}"
