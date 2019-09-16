@@ -1,22 +1,19 @@
 chocolaty_packages:
   # Utils
   - name: autohotkey
-  - name: ditto
-  - name: linkshellextension
   - name: 7zip.install
   - name: googledrive
   - name: dropbox
   - name: git
-  - name: SourceTree
   - name: curl
-  - name: ccleaner
   - name: processhacker
+  - name: plantuml
 
   # shell
   - name: conemu
   - name: cmder
-  #- name: cygwin
 
+  # browsers
   - name: firefox
   - name: googlechrome
 
@@ -39,24 +36,19 @@ chocolaty_packages:
   - name: vcxsrv
 
   # editors
-  - name: sublimetext3
-  # - name: sublimetext3.packagecontrol
-  - name: sublimetext3.powershellalias
-
-  - name: boostnote
+  - name: visualstudiocode
 
   # Programming
-  - name: visualstudiocode
-  #- name: vcbuildtools
   - name: jdk8
+  - name: jdk11
+  - name: openjdk
   - name: ruby
   - name: anaconda3 # python
+    state: absent
   - name: jetbrainstoolbox
   - name: terraform
   - name: awscli
   - name: vagrant
-  - name: winmerge
-  # - name: docker
   - name: docker-for-windows
   - name: haskell-stack
   - name: idris
