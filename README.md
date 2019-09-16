@@ -1,6 +1,8 @@
 # Ansible-WSL
 Provisioning your Windows by Ansible from WSL
 
+![concept](./docs/concept.png "concept")
+
 ## Getting Started
 
 ### Prerequisites
