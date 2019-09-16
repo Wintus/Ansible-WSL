@@ -40,8 +40,8 @@ chocolaty_packages:
 
   # Programming
   - name: jdk8
-  - name: jdk11
   - name: openjdk
+  - name: openjdk11
   - name: ruby
   - name: jetbrainstoolbox
   - name: terraform
