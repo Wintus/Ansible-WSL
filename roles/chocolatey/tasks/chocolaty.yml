@@ -1,0 +1,5 @@
+- name: install packages by chocolaty
+  win_chocolatey:
+    name: "{{ item.name }}"
+    state: "{{ item.state | default('latest') }}"
+  with_items: "{{ packages }}"

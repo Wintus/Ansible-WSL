@@ -1,13 +1,11 @@
-- name: install chocolatey by chocolatey.
-  win_chocolatey:
-    name: "{{ item.name }}"
-    state: "{{ item.state | default('latest') }}"
-  with_items:
-    - name: chocolatey
-    - name: chocolateygui
+- name: self hosting chocolaty.
+  import_tasks: chocolaty.yml
+  vars:
+    packages:
+      - name: chocolatey
+      - name: chocolateygui
 
-- name: install softwares by chocolatey.
-  win_chocolatey:
-    name: "{{ item.name }}"
-    state: "{{ item.state | default('latest') }}"
-  with_items: "{{ packages }}"
+- name: install softwares in the package list.
+  import_tasks: chocolaty.yml
+  vars:
+    packages: "{{ chocolaty_packages }}"
