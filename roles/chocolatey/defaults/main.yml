@@ -43,8 +43,6 @@ chocolaty_packages:
   - name: jdk11
   - name: openjdk
   - name: ruby
-  - name: anaconda3 # python
-    state: absent
   - name: jetbrainstoolbox
   - name: terraform
   - name: awscli
