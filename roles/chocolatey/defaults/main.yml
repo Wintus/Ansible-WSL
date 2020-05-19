@@ -50,6 +50,7 @@ chocolaty_packages:
   - name: elixir
   - name: julia
   - name: haskell-stack
+  - name: coq
   - name: idris
 
   # dev
