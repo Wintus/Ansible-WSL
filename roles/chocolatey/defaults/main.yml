@@ -12,6 +12,7 @@ chocolaty_packages:
   # shell
   - name: conemu
   - name: cmder
+  - name: pwsh
 
   # browsers
   - name: firefox
