@@ -1,22 +1,20 @@
 chocolaty_packages:
   # Utils
   - name: autohotkey
-  - name: ditto
-  - name: linkshellextension
   - name: 7zip.install
   - name: googledrive
   - name: dropbox
   - name: git
-  - name: SourceTree
   - name: curl
-  - name: ccleaner
   - name: processhacker
+  - name: plantuml
 
   # shell
   - name: conemu
   - name: cmder
-  #- name: cygwin
+  - name: pwsh
 
+  # browsers
   - name: firefox
   - name: googlechrome
 
@@ -28,8 +26,8 @@ chocolaty_packages:
   - name: lame
   - name: mp3tag
   - name: kindle
-  # - name: adobereader
-  # - name: steam
+#  - name: adobereader
+  - name: steam
   - name: slack
 
   - name: qbittorrent
@@ -39,24 +37,26 @@ chocolaty_packages:
   - name: vcxsrv
 
   # editors
-  - name: sublimetext3
-  # - name: sublimetext3.packagecontrol
-  - name: sublimetext3.powershellalias
-
-  - name: boostnote
+  - name: visualstudiocode
+  - name: firacode-ttf
 
   # Programming
-  - name: visualstudiocode
-  #- name: vcbuildtools
   - name: jdk8
+  - name: openjdk
+  - name: openjdk11
   - name: ruby
-  - name: anaconda3 # python
+  - name: python
+  - name: lein
+  - name: elixir
+  - name: julia
+  - name: haskell-stack
+  - name: coq
+  - name: idris
+
+  # dev
   - name: jetbrainstoolbox
   - name: terraform
   - name: awscli
-  - name: vagrant
-  - name: winmerge
-  # - name: docker
   - name: docker-for-windows
-  - name: haskell-stack
-  - name: idris
+  - name: virtualbox
+  - name: vagrant
