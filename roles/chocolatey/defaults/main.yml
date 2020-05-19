@@ -56,5 +56,5 @@ chocolaty_packages:
   - name: jetbrainstoolbox
   - name: terraform
   - name: awscli
-  - name: vagrant
   - name: docker-for-windows
+  - name: vagrant
