@@ -10,7 +10,7 @@ First, follow the Ansible offical setup of Windows hosts:
 https://docs.ansible.com/ansible/latest/user_guide/windows.html
 
 Next, get the WSL to run Ansible provisioning:
-https://www.microsoft.com/ja-jp/p/ubuntu-1804-lts/9n9tngvndl3q
+https://www.microsoft.com/ja-jp/p/ubuntu/9nblggh4msv6
 (This project only supports Ubuntu).
 After Ubuntu setup in WSL, install Ansible by apt: `apt install ansible`.
 
